@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-26T17:49:56 IST" name="Default suite" finished-at="2023-04-26T17:50:18 IST" duration-ms="22797">
+    <groups>
+    </groups>
+    <test started-at="2023-04-26T17:49:56 IST" name="Default test" finished-at="2023-04-26T17:50:18 IST" duration-ms="22797">
+      <class name="api.test.GuideLineTest">
+        <test-method is-config="true" signature="toGenerateReport()[pri:0, instance:api.test.GuideLineTest@21fd5faa]" started-at="2023-04-26T17:49:56 IST" name="toGenerateReport" finished-at="2023-04-26T17:49:57 IST" duration-ms="1156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toGenerateReport -->
+        <test-method signature="keyGeneration()[pri:0, instance:api.test.GuideLineTest@21fd5faa]" started-at="2023-04-26T17:49:57 IST" name="keyGeneration" finished-at="2023-04-26T17:50:10 IST" duration-ms="12737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- keyGeneration -->
+        <test-method signature="toCreateGuideLine()[pri:0, instance:api.test.GuideLineTest@21fd5faa]" started-at="2023-04-26T17:50:10 IST" name="toCreateGuideLine" finished-at="2023-04-26T17:50:11 IST" depends-on-methods="api.test.GuideLineTest.keyGeneration" duration-ms="1594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toCreateGuideLine -->
+        <test-method signature="toViewAllGuideLine()[pri:0, instance:api.test.GuideLineTest@21fd5faa]" started-at="2023-04-26T17:50:11 IST" name="toViewAllGuideLine" finished-at="2023-04-26T17:50:13 IST" depends-on-methods="api.test.GuideLineTest.toCreateGuideLine" duration-ms="1282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toViewAllGuideLine -->
+        <test-method signature="toEditGuideLine()[pri:0, instance:api.test.GuideLineTest@21fd5faa]" started-at="2023-04-26T17:50:13 IST" name="toEditGuideLine" finished-at="2023-04-26T17:50:14 IST" depends-on-methods="api.test.GuideLineTest.toViewAllGuideLine" duration-ms="1327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toEditGuideLine -->
+        <test-method signature="toDeleteGuideLine()[pri:0, instance:api.test.GuideLineTest@21fd5faa]" started-at="2023-04-26T17:50:14 IST" name="toDeleteGuideLine" finished-at="2023-04-26T17:50:15 IST" depends-on-methods="api.test.GuideLineTest.toEditGuideLine" duration-ms="1124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toDeleteGuideLine -->
+        <test-method signature="toEditUser()[pri:0, instance:api.test.GuideLineTest@21fd5faa]" started-at="2023-04-26T17:50:15 IST" name="toEditUser" finished-at="2023-04-26T17:50:17 IST" depends-on-methods="api.test.GuideLineTest.toEditGuideLine" duration-ms="2398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toEditUser -->
+        <test-method is-config="true" signature="ReportCooldown()[pri:0, instance:api.test.GuideLineTest@21fd5faa]" started-at="2023-04-26T17:50:17 IST" name="ReportCooldown" finished-at="2023-04-26T17:50:18 IST" duration-ms="1007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportCooldown -->
+      </class> <!-- api.test.GuideLineTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
